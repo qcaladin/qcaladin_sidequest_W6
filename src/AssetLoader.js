@@ -34,6 +34,8 @@ export async function loadAssets(levelPkg, tuningDoc) {
 
   const fontImg = await loadImageAsync("assets/bitmapFont.png");
 
+ // const bgMusic = await loadSoundAsync("assets/sfx/music.wav");
+
   // Backgrounds (keys should match levels.json parallaxLayers[].key)
   // If levelPkg provides a parallax layer list with { key, src }, prefer that.
   // Otherwise fall back to the default 3-layer set.
@@ -75,6 +77,7 @@ export async function loadAssets(levelPkg, tuningDoc) {
     backgrounds,
     playerAnis,
     boarAnis,
+   // bgMusic,
   });
 
   return {
@@ -95,6 +98,8 @@ export async function loadAssets(levelPkg, tuningDoc) {
 
     playerAnis,
     boarAnis,
+
+  // bgMusic,
   };
 }
 
