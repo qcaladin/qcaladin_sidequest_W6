@@ -69,12 +69,12 @@ export class LeafController {
     g.spriteSheet = assets.leafImg;
 
     // If you later move this into tuning.json, replace these literals.
-    g.addAnis({ idle: { w: 32, h: 32, row: 0, frames: 5 } });
+    g.addAnis({ idle: { w: 30, h: 30, row: 0, frames: 1 } });
 
-    g.w = 10;
-    g.h = 6;
-    g.anis.offset.x = 2;
-    g.anis.offset.y = -4;
+    g.w = 30;
+    g.h = 30;
+    g.anis.offset.x = -3;
+    g.anis.offset.y = 4;
 
     g.tile = "x";
     return g;
