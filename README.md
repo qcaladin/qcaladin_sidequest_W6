@@ -34,12 +34,6 @@ Background: https://trixelized.itch.io/starstring-fields
 
 Tileset: https://nicktuti.itch.io/tileset
 
-Sounds:
-Background: https://pixabay.com/music/video-games-%e6%87%90%e3%81%8b%e3%81%97%e3%81%8416%e3%83%93%e3%83%83%e3%83%88%e9%9f%b3%e6%a5%bd-343477/
-
-Hit:
-
-Collect:
 
 ---
 
